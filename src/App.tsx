@@ -18,7 +18,7 @@ function App() {
         </div>
 
 
-        <div className="flex flex-col items-center justify-end-safe h-full text-white px-7 mt-35 md:mt-50">
+        <div className="flex flex-col items-center justify-end-safe h-full text-white px-2 mt-15 md:mt-20">
           {/* Button */}
           <button className="bg-gradient-to-r from-buttonkatadata to-purplekatadata text-white font-medium py-2 px-4 text-base rounded-full mt-1"
             // onClick={() => alert("Simposium Ekonomi Nasional button clicked!")}
@@ -34,15 +34,23 @@ function App() {
 
           <h1 className="text-xl lg:text-2xl font-bold text-center mt-2 mb-6 text-blueligthkatadata">dan Arah Ekonomi Indonesia</h1>
 
-          <p className="text-sm md:text-base text-shadow-lg text-center mt-1 mb-2 px-5 lg:w-1/2">
-            “Sumitronomics” adalah strategi ekonomi nasionalis-pragmatis yang menggabungkan peran negara dan swasta, dengan fokus pada industrialisasi dan penguasaan ekonomi oleh rakyat, serta keterbukaan yang terukur terhadap asing.
+
+
+          <p className="text-sm md:text-base text-shadow-lg text-center mt-1 mb-2 px-2 lg:w-1/2">
+          Ia termasuk segelintir orang yang ditabalkan sebagai begawan ekonomi Indonesia. Spektrum pemikiran Sumitro Djojohadikusumo membentang luas dari keuangan mikro hingga ekonomi makro, dan menjadikannya sosok yang dipertimbangkan oleh bangsa Indonesia dalam rentang kemerdekaan hingga hari ini. 
+          </p>
+          <p className="text-sm md:text-base text-shadow-lg text-center mt-1 mb-2 px-2 lg:w-1/2">
+          Di akhir 1980-an, kalangan teknokrat dan sejumlah ekonom bahkan menjulukinya sebagai ‘Sang Ayatullah Indonesia’ karena pemikiran dan pengaruhnya dalam kebijakan-kebijakan negara. Seperti apa saja pandangannya yang kemudian mewujud dalam sumitronomics?
           </p>
 
           <hr className="w-full lg:w-1/2 my-2 mx-auto divider" />
 
-          <p className="text-sm text-center mt-2 mb-6 px-5">
-            Nantikan pembahasan selengkapnya pada 3 Juni 2025
+            <div className='w-full lg:w-1/2'> 
+            <p className="text-sm text-center mt-2 mb-6 px-5">
+            {/* Nantikan pembahasan selengkapnya pada 3 Juni 2025 */}
+            Nantikan pembahasannya dalam simposium nasional dan edisi khusus ‘Sumitronomics dan Arah Ekonomi Indonesia’ pada 3 Juni 2025.
           </p>
+            </div>
         </div>
       </div>
     </div>

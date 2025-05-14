@@ -10,6 +10,8 @@ function App() {
           Simposium Nasional
         </title>
 
+    
+
         <meta
           name='description'
           content='Simposium Nasional
